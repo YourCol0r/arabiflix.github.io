@@ -1,112 +1,189 @@
-<html lang="en-US" style="">
+﻿<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Matrix Repository addon | zombi.github.io</title>
-    <meta property="og:title" content="zombi Repository addon">
-    <meta property="og:locale" content="en_US">
-    <link rel="canonical" href="https://zombib.github.io/zombib.github.io/">
-    <meta property="og:url" content="https://zombib.github.io/zombib.github.io/">
-    <meta property="og:site_name" content="zombi.github.io">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <style>
-        a:visited, a:hover, a:active, a{
-            color:#A2D729
-        }
-        body{
-            background-color: #1F2528;
-            color:#FAFFFD;
-            padding:50px;
-            font-family: 'Open Sans', sans-serif;
-        }
-        #logo, ul{
-            padding:10px;
-            background-color: #FAFFFD;
-        }
-        ul{
-            margin-top: 20px;
-            list-style-type: square;
-            left: 100px;
-        }
-        .code-highlight{
-            font-weight: 700;
-            color:#3C91E6;
-        }
-        #header{
-        }
-        section{
-            color:#1F2528;
-        }
-        .credits{
-            float:right;
-        }
-        #fork, fork:active, fork:hover, fork:visited{
-            float:right;
-            padding: 10px 20px 10px 20px;
-            background-color: #A2D729;
-            color: #FAFFFD;
-            text-decoration: none;
-        }
-        h1{
-            display: inline-block;
-        }
-        small{
-            margin-top: 40px;
-            margin-right: -160px;
-            font-size: 1em;
-            float:right;
-        }
-
-    </style>
-
+  <title>اضافة ماتريكس : متعة المشاهده حسب الطلب</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
+
 <body>
-<div id="header">
-    <nav>
-        <a id="fork" href="https://github.com/zombiB/zombi-addons/tree/master/plugin.video.matrix">View On GitHub</a>
 
-    </nav>
-</div><!-- end header -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-<div class="wrapper">
-    <div id="title">
-        <hr>
-        <h1 id="zombi-repository-addon">Installing the matrix addon</h1>
-        <small>Current Repository Version: 0.0.6</small>
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html"><img src="img/small-logo.png"></a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#description">تعريف الاضافة</a></li>
+          <li><a href="#download">طريقة التثبيت</a></li>
+          <li><a href="#news">الدعم</a></li>
+          <li><a href="#contacts">التواصل</a></li>
+        </ul>
+      </div>
     </div>
-    <section>
+  </nav>
+  
+  <section id="intro" class="bg-dark">
+      <img src="img/big-logo.png">
+      <a href="#description" class="btn scroll animated fadeInUp">تعرف على ماتريكس</a>
+  </section>
 
-        <p align="left"></p>
+  <section id="description" class="home-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>ماتريكس</h2>
+            <div class="heading-line"></div>
+            <p>مبنية على الاضافة الفرنسية<a href="https://github.com/Kodi-vStream/venom-xbmc-addons">vStream</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 description-img">
+          <img src="img/screenshot.jpg" alt="">
+        </div>
 
-        <p><img id="logo" align="left" src="https://github.com/zombiB/zombi-addons/blob/master/plugin.video.matrix/icon.png?raw=true" width="256" hspace="80" title="zombi Repo"></p>
-        <p align="left">
-        </p>
-        <p>Instructions for adding this repo:</p>
-        <ul>
-            <li>اضافة ماتريكس تعمل كمتصفح تسمح لك بمشاهدة محتوى متنوع و مميز من أفظل المواقع العربية على الشبكة</li>
-            <li>Click on "Add source"</li>
-            <li>The path for the source is <code class="code-highlight">https://zombib.github.io/zip</code></li>
-            <li>Name it "zombi" without the quotes</li>
-            <li>Head to " My Addons"</li>
-            <li>Select install an addon from zipfile. </li>
-            <li>When it asks for the location, select "zombi", and install <code class="code-highlight">repository.zombi-0.0.x.zip</code>.</li>
-            <li>Go back to My Addons and select "Install from repository"</li>
-            <li>Select the "zombi" menu item</li>
-            <li>Open "Video add-ons" and install matrix</li>
+        <div class="col-md-6 content">
+          <h2>ماتريكس هي اضافة مميزة تسمح لك بتصفح أشهر مواقع الفيديو العربية على تطبيق كودي</h2>
+          <h3>إضافة ماتريكس تمكنك من مشاهدة محتوى عربي متنوع في مكان واحد مقسم حسب النوع و يمكنك ان تجد معلومات المحتوى كالقصة و الاعلان و الارشاد العائلي  كما توفرالترجمة الملصقة وخاصية التحميل و البحث الشامل و عديد المميزات الأخرى</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Your embedded video player code -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/CfTncyeIsfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p></p>
+  <section id="download" class="home-section bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>كيفية تثبيت الإضافة</h2>
+          <div class="heading-line"></div>
+          <ul>
+            <li> يمكن تحميل برنامج كودي مدمج معه اضافة ماتريكس نسخة أندرويد من هذا الرابط<a href="https://www.mediafire.com/file/l9zmeatoq6mrqqg/signed_kodimatrix.apk/file"> mediafire </a></li>
+            <li></li>
+            <li>أو يمكن تثبيت الاضافة يدويا تابع الشرح في الفيديو</li>
+             <!-- Your embedded video player code -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CfTncyeIsfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p></p>
+          </ul>
+  </section>
 
-        <h2 id="enjoy">Enjoy!</h2>
+  <section id="news" class="home-section bg-grey">
+    <div class="container">
+      <div class="row wow fadeInUp">
+        <div class="col-md-4 content">
+          <h2>الدعم</h2>
+          <div>اذا واجهتك مشكلة في الاضافة أو لديك فكرة أو اقتراح يمكنك مشاركتها مع المطور عبر فتح مشكلة جديدة  على غيتهاب <a href="https://github.com/zombiB/zombi-addons/issues">( New Issue )</a>
+          <div>يجب اضافة شرح  وافي للمشكلة و ارفاق لوغ عبر اتباع هذه الخطوات</div>
+          <div>1.Enable debug logging in Settings>System Settings>Logging</div>
+          <div>2. إعادة تشغيل Kodi</div>
+          <div>3. كرر المشكلة</div>
+          <div>ثم قم بتشغيل الاضافة Kodi Logfile Uploader الموجودة في program add-ons</div>
+          <div>و قم بارفاق الصورة او الرابط الذي سيظهر على الشاشة</div>
+        </div>
+        <div class="col-md-8 content">
+          <iframe style="border:0px;height:700px;width:80%;margin:5px;box-shadow: 0 0 16px 3px rgba(0,0,0,.2);" src="https://xn--r1a.website/s/KoDcanale"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
 
+<!--  <section id="guide" class="home-section bg-middledark">-->
+<!--    <div class="container">-->
+<!--      <div class="row wow fadeInUp">-->
+<!--        <div class="col-md-6 content">-->
+<!--          <h2>Guida galattica per scapisti</h2>-->
+<!--          <p>Per chi vuole cominciare a scrivere un canale per KoD</p>-->
+<!--        </div>-->
+<!--        <div class="col-md-6 content">-->
+<!--          <p>Questo è il primo capitolo della nostra guida che, per quanto basilare, richiede una minima conoscenza di python</p>-->
+<!--          <a href="https://is.gd/guida_cap1_rev1" class="btn animated fadeInUp" target=”_blank”><i class="fa fa-arrow-circle-o-down"></i><span>Capitolo 1</span></a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <br>-->
+<!--      <div class="row wow fadeInUp">-->
+<!--        <div class="col-md-6 content">-->
+<!--          <h2>Guida community</h2>-->
+<!--          <p>Crea e utilizza canali fatti da e per la Community</p>-->
+<!--        </div>-->
+<!--        <div class="col-md-6 content">-->
+<!--          <p>Si è sognato di creare dei canali propri, inserendo del materiale per condividerlo con altri? Con KoD è possibile</p>-->
+<!--          <a href="http://l.ly/kodcomm" class="btn animated fadeInUp" target=”_blank”><i class="fa fa-arrow-circle-o-down"></i><span>Community</span></a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
 
-    </section>
-    <span class="credits left">Project maintained by <a href="https://github.com/zombiB">zombi</a></span>
-</div>
+  <section id="contacts" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>تواصل مع المطور</h2>
+            <div class="heading-line"></div>
+            <p>لمزيد من المعلومات يرجى التواصل معنا على</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-md-6">
+        <a href="https://www.tunisia-sat.com/forums/threads/3939280/" class="btn" target=”_blank”><i class="fa fa-tunisia-sat"></i><span>tunisia-sat</span></a>
+      </div>
 
+      <div class="col-md-6">
+        <a href="https://www.facebook.com/groups/2597378853663026" class="btn" target=”_blank”><i class="fa fa-facebook"></i><span>facebook</span></a>
+      </div>
 
+      <div class="col-md-6">
+        <a href="https://github.com/zombiB/zombi-addons" class="btn" target=”_blank”><i class="fa fa-github"></i><span>GitHub</span></a>
+      </div>
 
-</body></html>
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <i>Kodi © is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</i>
+        </div>
+        <div class="col-md-12">
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Alstar
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
